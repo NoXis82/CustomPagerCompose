@@ -20,7 +20,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             CustomPagerComposeTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    CubePager(modifier = Modifier.padding(innerPadding))
+//                    CubePager(modifier = Modifier.padding(innerPadding))
+                    CircleRevealPager(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
